@@ -1341,7 +1341,6 @@
 }
 #business-introduction .product_charge ul li img {
   width: 100%;
-  height: 207px;
 }
 #business-introduction .product_charge ul li span {
   font-weight: bold;
@@ -1985,14 +1984,18 @@ dl {
 }
 
 section {
+  /* width: 100%; */
+  height: 100%;
   width: 100%;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 section .inner {
-  width: 1200px;
+  /* width: 1200px; */
   margin: 0 auto;
-  padding: 0 3%;
+  /* padding: 0 3%; */
   box-sizing: border-box;
+  height: 100%;
+  width: 100%;
 }
 
 .contents_navi .inner {
@@ -2483,6 +2486,12 @@ table.frame td {
   table.frame td {
     width: calc(100% - 130px) !important;
   }
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow: hidden;
+  }
 }
 @media screen and (max-width: 374px) {
   .sub_navi .inner a {
@@ -2494,7 +2503,106 @@ table.frame td {
   .sub_navi .inner a:last-child br {
     display: none;
   }
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow: hidden;
+  }
+  
 }
+
+.container{
+  display: flex;
+  gap: 50px;
+  overflow: hidden;
+}
+
+
+
+.contact-details {
+  /* font-family: 'Arial', sans-serif; */
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+.contact-details h2{
+  margin-bottom: 20px;
+  font-size: 24px; 
+  font-weight: 700;
+}
+
+.contact123{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact123 h6{
+  display: block;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-container{
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.details2 {
+  width: 100%;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.details2 h2 {
+  margin-bottom: 10px;
+  font-size: 18px; 
+  font-weight: 700;
+}
+
+.details2 h3 {
+  margin-bottom: 10px;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.details2 span {
+  display: block;
+  color: #555555;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.details2 p {
+  margin: 5px 0;
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #000000;
+
+}
+
+/* Department Styles */
+
+/* .electronic-material {
+  border: 2px solid #3498db;
+}
+
+.fine-chemical {
+  border: 2px solid #2ecc71;
+}
+
+.performance-chemical {
+  border: 2px solid #e74c3c;
+} */
+
+
 #formarea p {
   font-size: 1.5rem;
 }
@@ -2527,7 +2635,8 @@ table.frame td {
   justify-content: space-between;
   flex-wrap: wrap;
   font-size: 1.6rem;
-  width: 1200px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto 3rem;
   border-bottom: 1px solid #eee;
 }
