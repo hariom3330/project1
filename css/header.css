@@ -84,7 +84,8 @@ header#header .logo {
     border-left: 1px solid #0a0a0a;
     border-right: 1px solid #0a0a0a;
     border-bottom: 1px solid #0a0a0a;
-    background: #00e9ff;
+    background: white;
+    font-weight: bold;
   }
   .colo{
     text-decoration: solid;
@@ -101,6 +102,7 @@ header#header .logo {
     text-align: center;
     line-height: 1;
     margin-top: 20px;
+    font-weight: bold;
   }
   header#header nav#nav .sub li.tab_lang {
     position: relative;
